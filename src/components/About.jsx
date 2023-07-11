@@ -7,7 +7,7 @@ const About = () => {
       className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div>
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             About me!
           </p>
@@ -15,11 +15,10 @@ const About = () => {
 
         <div className="flex justify-end items-center">
           <p className="text-xl mt-20 mr-8">
-            Hello! I'm
-            <strong className="text-shadow-orange">Surandharan V</strong>, an
+            Hello! I'm {' '}<strong className="text-shadow-orange"> Surandharan V</strong>, an
             aspiring Software Developer with a strong focus on Competitive
             Programming and Software Development from Chennai, India. I am
-            currently pursuing
+            currently pursuing {' '}
             <strong className="text-shadow-orange">
               Bachelors in Computer Science at College of Engineering, Guindy.
             </strong>

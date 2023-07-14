@@ -1,5 +1,5 @@
 import React from "react";
-import HeroImage from "../assets/heroImage.jpg";
+import HeroImage from "../assets/heroImage.jpeg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -16,7 +16,7 @@ const Home = () => {
             I'm Suren V
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am an aspiring Software Developer and Competitive Programmer interested in learning new rechnologies and explore the tech world
+            I am an aspiring Software Developer and Competitive Programmer interested in learning new technologies and explore the tech world
           </p>
 
           <div>
